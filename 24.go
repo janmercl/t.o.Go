@@ -1,3 +1,5 @@
+// A Tour Of Go - 24 - Exercise: Loops and Functions
+
 package main
 
 import (
