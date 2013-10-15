@@ -5,8 +5,6 @@ import (
     "math"
 )
 
-var a float64
-
 func Sqrt(x float64) float64 {
     z := 1.0
     z = x
@@ -17,7 +15,7 @@ func Sqrt(x float64) float64 {
 }
 
 func main() {
-    a = 12
+    a := 12.0
     fmt.Println(Sqrt(a))
     fmt.Println(math.Sqrt(a))
 }
