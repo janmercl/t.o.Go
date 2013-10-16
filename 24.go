@@ -11,7 +11,7 @@ func Sqrt(x float64) float64 {
     z := 1.0
     z = x
     for i := 0; i < 10; i++ {
-	z = z - ((z*z)-x)/(2*z)
+	z -= ((z*z)-x)/(2*z)	//1)
     }
     return z
 }
